@@ -15,7 +15,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
    
       <div className="flex-1 grid grid-cols-1 md:grid-cols-[250px_1fr] min-h-screen">
         
-        <Sidebar isOpen={isOpen} setIsOpen={setIsOpen} />
+        <Sidebar isOpen={isOpen}  />
 
         
         <main className="p-2 overflow-hidden min-h-[100vh]">

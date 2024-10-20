@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const Sidebar = ({ isOpen, setIsOpen }: { isOpen: boolean; setIsOpen: Function }) => {
+const Sidebar = ({ isOpen }: { isOpen: boolean; }) => {
   return (
     <aside
       className={` text-white bg-white w-56 space-y-6 py-7 px-2 inset-y-0 left-0 transform border-r ${
