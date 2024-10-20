@@ -9,10 +9,8 @@ Chart.register(...registerables);
 const DoughnutChart = ({correct}:any) => {
   const chartRef = useRef<any>(null);
   
-  const correctAnswers = correct;
+  const correctAnswers:any = correct;
   const totalQuestions = 15;
-  const percentage = (correctAnswers / totalQuestions) * 100;
-
   const data = {
     labels: ['Correct', 'Incorrect'],
     datasets: [

@@ -26,9 +26,6 @@ const LineChart = () => {
     
 
   
-  const frequencies = data.map(item => item.count); 
-
-  
   const percentileIndexes = ['0', '25', '50', '75', '100'];
   const chartData = {
     labels: percentileIndexes, 
